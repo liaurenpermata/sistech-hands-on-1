@@ -1,0 +1,97 @@
+*{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.container {
+    margin-top: 8%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.mt-2 {
+    margin-top: 1.3rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-item {
+    margin-right: 1.5rem;
+}
+
+span {
+    margin-right: 1.5rem;
+}
+
+.ft-50 {
+    font-size: 50px;
+}
+
+.ft-35 {
+    font-size: 35px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.numbers {
+    color: #E4003A;
+    /* font-size: 50px; */
+}
+
+.operators{
+    color: #FFB200;
+    /* font-size: 50px; */
+}
+
+#inputAnswer {
+    font-size: 50px;
+    width: 70px;
+    border-color: #ECECEC;
+    color: #E4003A;
+}
+
+#jawabanYangBenar {
+    color: #06D001;
+}
+
+.btn-submit {
+    height: 60px;
+}
+
+.btn-content {
+    border-radius: 10px;
+    background-color: #06D001 ;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: all 0.3s ease; */
+}
+
+
+.btn-content div {
+    color: #FFF;
+}
+
+.btn-content:hover{
+    cursor: pointer;
+    /* transform: scale(1.1); */
+    background-color: #1A5319;
+}
+
+.jawaban-salah {
+    color: #E4003A;
+    font-size: 60px;
+}
